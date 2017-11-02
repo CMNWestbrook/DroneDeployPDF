@@ -1,0 +1,40 @@
+
+
+div {
+  margin:0;
+  padding:0;
+  display:flex;
+  align-items: center;
+}
+
+/*boarder around main app button*/
+div.line {
+  border-style: solid;
+  border-color: #0099cc #008ae6 #1a75ff #1a53ff;
+}
+
+/*text for main app button*/
+span.buttonText{
+  font-family: sans-serif;
+  font-size: 14px;
+  color: black;
+}
+
+/*testing api*/
+ #tile-list{
+      display: flex;
+      flex-direction: row;
+      flex: 1 1 0%;
+    }
+
+img{
+      margin: 15px;
+      width: 50px;
+      height: 50px;
+      padding: 5;
+    }
+
+button{
+  background-color: white;
+  border: None;
+}

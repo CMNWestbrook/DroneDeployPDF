@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Convert to PDF</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+
+<button class="buttonText" id="get-images">
+  <div class="line">
+  <img src="pdf_logo.png" alt="pdf_logo" height="40" width="40">Generate a PDF of this map
+  </div>
+</button>
+
+
+<div>First 4 Tiles At Zoom Level 20 testingzz</div>
+<div id="tile-list"></div>
+
+<!-- <button id="image-overlay">Add Image Overlay</button>
+<button id="tile-layer">Add TileLayer</button>
+<button id="pan-map">Pan Map</button>
+<button id="red-polygon">Add Red Polygon</button>
+ -->
+
+
+<script src="//mozilla.github.io/pdf.js/build/pdf.js"></script>
+
+<script src="script.js"></script>
+<script>
+$(document).ready(function() {
+   $('#button').click(function(event) { alert("You Clicked Me!"); });
+});
+</script>
+</body>
+</html>
